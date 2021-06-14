@@ -9,7 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class CanCalculateAdditionAndSubtraction {
-	
+
 	private Calculator calculator;
 	private double actualResult;
 
@@ -22,14 +22,25 @@ public class CanCalculateAdditionAndSubtraction {
 	public void andAreAdded(Integer num1, Integer num2) {
 		actualResult = calculator.add(num1, num2);
 	}
-	
+
 	@When("{int} is subtracted from {int}")
 	public void isSubtractedFrom(Integer num1, Integer num2) {
-	    actualResult = calculator.subtract(num2, num1);
+		actualResult = calculator.subtract(num2, num1);
 	}
-	
+
+	@When("{int} and {int} are multiplied")
+	public void ismultiplied(Integer num1, Integer num2) {
+		actualResult = calculator.multiply(num1, num2);
+	}
+
+	@When("{int} is divided by {int}")
+	public void isdivide(Integer num1, Integer num2) {
+		actualResult = calculator.divide(num2, num1);
+	}
+
 	@Then("the result should be {int}")
 	public void theResultShouldBe(Integer expectedResult) {
-	    assertEquals(expectedResult.doubleValue(), actualResult, 2);
+		assertEquals(expectedResult.doubleValue(), actualResult, 4);
 	}
+
 }
