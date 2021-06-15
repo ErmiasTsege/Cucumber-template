@@ -1,7 +1,7 @@
 #Author: mwalsh@qa.com
 
-Feature: Can calculate addition and subtraction correctly?
-  To test whether addition and subtraction return the correct
+Feature: Can calculate  addition,multiplication,division and subtraction correctly?
+  To test whether addition,multiplication,division and subtraction return the correct
   results.
 
   Scenario: 3 add 4 is 7

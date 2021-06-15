@@ -3,17 +3,17 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-06-14T16:46:51.216Z",
+        "start_timestamp": "2021-06-15T05:39:09.716Z",
         "line": 7,
         "name": "3 add 4 is 7",
         "description": "",
-        "id": "can-calculate-addition-and-subtraction-correctly?;3-add-4-is-7",
+        "id": "can-calculate--addition-multiplication-division-and-subtraction-correctly?;3-add-4-is-7",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3998800,
+              "duration": 2996400,
               "status": "passed"
             },
             "line": 8,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 5995500,
+              "duration": 997900,
               "status": "passed"
             },
             "line": 9,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 4997100,
+              "duration": 2997500,
               "status": "passed"
             },
             "line": 10,
@@ -66,17 +66,16 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-14T16:46:51.516Z",
+        "start_timestamp": "2021-06-15T05:39:09.866Z",
         "line": 12,
         "name": "4 subtract 3 is 1",
         "description": "",
-        "id": "can-calculate-addition-and-subtraction-correctly?;4-subtract-3-is-1",
+        "id": "can-calculate--addition-multiplication-division-and-subtraction-correctly?;4-subtract-3-is-1",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1998700,
               "status": "passed"
             },
             "line": 13,
@@ -88,7 +87,6 @@
           },
           {
             "result": {
-              "duration": 1998600,
               "status": "passed"
             },
             "line": 14,
@@ -128,17 +126,17 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-14T16:46:51.547Z",
+        "start_timestamp": "2021-06-15T05:39:09.904Z",
         "line": 17,
         "name": "3 multiplied 4 is 12",
         "description": "",
-        "id": "can-calculate-addition-and-subtraction-correctly?;3-multiplied-4-is-12",
+        "id": "can-calculate--addition-multiplication-division-and-subtraction-correctly?;3-multiplied-4-is-12",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 998100,
               "status": "passed"
             },
             "line": 18,
@@ -150,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 999500,
+              "duration": 6996900,
               "status": "passed"
             },
             "line": 19,
@@ -166,13 +164,13 @@
                   "offset": 6
                 }
               ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.ismultiplied(java.lang.Integer,java.lang.Integer)"
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.multiply(java.lang.Integer,java.lang.Integer)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 999000,
+              "duration": 1000400,
               "status": "passed"
             },
             "line": 20,
@@ -191,17 +189,17 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-14T16:46:51.588Z",
+        "start_timestamp": "2021-06-15T05:39:09.966Z",
         "line": 22,
         "name": "12 divided 3 is 4",
         "description": "",
-        "id": "can-calculate-addition-and-subtraction-correctly?;12-divided-3-is-4",
+        "id": "can-calculate--addition-multiplication-division-and-subtraction-correctly?;12-divided-3-is-4",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3001300,
+              "duration": 2999400,
               "status": "passed"
             },
             "line": 23,
@@ -213,6 +211,7 @@
           },
           {
             "result": {
+              "duration": 1001200,
               "status": "passed"
             },
             "line": 24,
@@ -228,7 +227,7 @@
                   "offset": 17
                 }
               ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.isdivide(java.lang.Integer,java.lang.Integer)"
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.divide(java.lang.Integer,java.lang.Integer)"
             },
             "keyword": "When "
           },
@@ -252,11 +251,81 @@
         ]
       }
     ],
-    "name": "Can calculate addition and subtraction correctly?",
-    "description": "  To test whether addition and subtraction return the correct\n  results.",
-    "id": "can-calculate-addition-and-subtraction-correctly?",
+    "name": "Can calculate  addition,multiplication,division and subtraction correctly?",
+    "description": "  To test whether addition,multiplication,division and subtraction return the correct\n  results.",
+    "id": "can-calculate--addition-multiplication-division-and-subtraction-correctly?",
     "keyword": "Feature",
     "uri": "classpath:features/can-calculate-addition-and-subtraction.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-15T05:39:09.990Z",
+        "line": 5,
+        "name": "Test searching cats in google page",
+        "description": "",
+        "id": "test-google-search-page;test-searching-cats-in-google-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8798941400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that I have gone to the Google page",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanNavigateandSearchApaga.aUserNavigatesTolandingpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 260839100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I add cats to the search box",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanNavigateandSearchApaga.aUserSearchesFor()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7456142700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the Search icon",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanNavigateandSearchApaga.clicksearchbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4506161400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "cats should be mentioned in the results",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanNavigateandSearchApaga.pageTitleIs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Google search page",
+    "description": "",
+    "id": "test-google-search-page",
+    "keyword": "Feature",
+    "uri": "classpath:features/google-search.feature",
     "tags": []
   }
 ]
