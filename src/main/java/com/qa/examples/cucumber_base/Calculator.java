@@ -23,16 +23,16 @@ public class Calculator {
 	
 	public double subtract(double a, double b) {
 		// TODO: Implement
-		return 0.0d;
+		return a-b;
 	}
 	
 	public double divide(double a, double b) {
 		// TODO: Implement
-		return 0.0d;
+		return a/b;
 	}
-	
+//	
 	public double multiply(double a, double b) {
 		// TODO: Implement
-		return 0.0d;
+		return a*b;
 	}
 }

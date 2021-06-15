@@ -9,7 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class CanCalculateNumbersCorrectly {
-	
+
 	private Calculator calculator;
 	private double actualResult;
 
@@ -20,11 +20,34 @@ public class CanCalculateNumbersCorrectly {
 
 	@When("{double} and {double} are added")
 	public void andAreAdded(Double leftOperand, Double rightOperand) {
-	    this.actualResult = this.calculator.add(leftOperand, rightOperand);
+		this.actualResult = this.calculator.add(leftOperand, rightOperand);
 	}
+
+	@When("{double} is subtract from {double}")
+	public void isSubtractFrom(Double leftOperand, Double rightOperand) {
+		// Write code here that turns the phrase above into concrete actions
+		this.actualResult = this.calculator.subtract(leftOperand, rightOperand);
 	
+	}
+
+	@When("{double} and {double} are multiplied")
+
+	public void ismultiplied(Double leftOperand, Double rightOperand) {
+		// Write code here that turns the phrase above into concrete actions
+		this.actualResult = this.calculator.multiply(leftOperand, rightOperand);
+
+	}
+	@When("{double} divided by {double}")
+
+	public void isdivided(Double leftOperand, Double rightOperand) {
+		// Write code here that turns the phrase above into concrete actions
+		this.actualResult = this.calculator.divide(leftOperand, rightOperand);
+	
+	}
 	@Then("the result should be {double}")
 	public void theResultShouldBe(Double expectedResult) {
-	    assertEquals(expectedResult, actualResult, 7);
+		assertEquals(expectedResult, actualResult, 7);
+
 	}
+
 }

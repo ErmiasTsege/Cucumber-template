@@ -1,51 +1,147 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="0.234">
-    <testcase classname="Can calculate numbers correctly?" name="3.0 add 4.0 is 7.0" time="0.058">
-        <system-out>
-            <![CDATA[Given a calculator..........................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="24" time="1.286">
+    <testcase classname="Can calculate numbers correctly?" name="3.0 add 4.0 is 7.0" time="0.156">
+        <system-out><![CDATA[Given a calculator..........................................................passed
 When 3.0 and 4.0 are added..................................................passed
 Then the result should be 7.0...............................................passed
-]]>
-        </system-out>
+]]></system-out>
     </testcase>
-    <testcase classname="Can calculate numbers correctly?" name="89.0 add 9.0 is 98.0" time="0.002">
-        <system-out>
-            <![CDATA[Given a calculator..........................................................passed
+    <testcase classname="Can calculate numbers correctly?" name="89.0 add 9.0 is 98.0" time="0.008">
+        <system-out><![CDATA[Given a calculator..........................................................passed
 When 89.0 and 9.0 are added.................................................passed
 Then the result should be 98.0..............................................passed
-]]>
-        </system-out>
+]]></system-out>
     </testcase>
-    <testcase classname="Can calculate numbers correctly?" name="9.0 add 89.0 is 98.0" time="0.002">
-        <system-out>
-            <![CDATA[Given a calculator..........................................................passed
+    <testcase classname="Can calculate numbers correctly?" name="9.0 add 89.0 is 98.0" time="0.01">
+        <system-out><![CDATA[Given a calculator..........................................................passed
 When 9.0 and 89.0 are added.................................................passed
 Then the result should be 98.0..............................................passed
-]]>
-        </system-out>
+]]></system-out>
     </testcase>
-    <testcase classname="Can calculate numbers correctly?" name="0.0 add 3.0 is 3.0" time="0.001">
-        <system-out>
-            <![CDATA[Given a calculator..........................................................passed
+    <testcase classname="Can calculate numbers correctly?" name="0.0 add 3.0 is 3.0" time="0.006">
+        <system-out><![CDATA[Given a calculator..........................................................passed
 When 0.0 and 3.0 are added..................................................passed
 Then the result should be 3.0...............................................passed
-]]>
-        </system-out>
+]]></system-out>
     </testcase>
-    <testcase classname="Can calculate numbers correctly?" name="0.0 add -3.0 is -3.0" time="0.001">
-        <system-out>
-            <![CDATA[Given a calculator..........................................................passed
+    <testcase classname="Can calculate numbers correctly?" name="0.0 add -3.0 is -3.0" time="0.005">
+        <system-out><![CDATA[Given a calculator..........................................................passed
 When 0.0 and -3.0 are added.................................................passed
 Then the result should be -3.0..............................................passed
-]]>
-        </system-out>
+]]></system-out>
     </testcase>
-    <testcase classname="Can calculate numbers correctly?" name="2.5 add 2.5 is 5.00" time="0.004">
-        <system-out>
-            <![CDATA[Given a calculator..........................................................passed
+    <testcase classname="Can calculate numbers correctly?" name="2.5 add 2.5 is 5.00" time="0.01">
+        <system-out><![CDATA[Given a calculator..........................................................passed
 When 2.5 and 2.5 are added..................................................passed
 Then the result should be 5.00..............................................passed
-]]>
-        </system-out>
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="3.0 subtract 4.0 is -1.0" time="0.014">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 3.0 is subtract from 4.0...............................................passed
+Then the result should be -1.0..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="89.0 subtract 9.0 is 80.0" time="0.007">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 89.0 is subtract from 9.0..............................................passed
+Then the result should be 80.0..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="9.0 subtract 89.0 is -80.0" time="0.005">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 9.0 is subtract from 89.0..............................................passed
+Then the result should be -80.0.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="0.0 subtract 3.0 is -3.0" time="0.003">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 0.0 is subtract from 3.0...............................................passed
+Then the result should be -3.0..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="0.0 subtract -3.0 is 3.0" time="0.016">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 0.0 is subtract from -3.0..............................................passed
+Then the result should be 3.0...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="2.5 subtract 2.5 is 0.00" time="0.005">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 2.5 is subtract from 2.5...............................................passed
+Then the result should be 0.00..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="3.0 multiply 4.0 is 12.0" time="0.009">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 3.0 and 4.0 are multiplied.............................................passed
+Then the result should be 12.0..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="8.0 multiply 9.0 is 72.0" time="0.004">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 8.0 and 9.0 are multiplied.............................................passed
+Then the result should be 72.0..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="9.0 multiply 9.0 is 81.0" time="0.002">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 9.0 and 9.0 are multiplied.............................................passed
+Then the result should be 81.0..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="0.0 multiply 3.0 is 0.0" time="0.012">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 0.0 and 3.0 are multiplied.............................................passed
+Then the result should be 0.0...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="0.0 multiply -3.0 is 0.0" time="0.007">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 0.0 and -3.0 are multiplied............................................passed
+Then the result should be 0.0...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="2.5 multiply 2.0 is 5.00" time="0.004">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 2.5 and 2.0 are multiplied.............................................passed
+Then the result should be 5.00..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="12.0 divide 4.0 is 3.0" time="0.004">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 12.0 divided by 4.0....................................................passed
+Then the result should be 3.0...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="8.0 divide 4.0 is 2.0" time="0.004">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 8.0 divided by 4.0.....................................................passed
+Then the result should be 2.0...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="9.0 divide 3.0 is 3.0" time="0.01">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 9.0 divided by 3.0.....................................................passed
+Then the result should be 3.0...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="12.0 divide 3.0 is 4.0" time="0.007">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 12.0 divided by 3.0....................................................passed
+Then the result should be 4.0...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="9.0 divide -3.0 is -3.0" time="0.004">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 9.0 divided by -3.0....................................................passed
+Then the result should be -3.0..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate numbers correctly?" name="25.0 divide 10.0 is 2.50" time="0.003">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 25.0 divided by 10.0...................................................passed
+Then the result should be 2.50..............................................passed
+]]></system-out>
     </testcase>
 </testsuite>
