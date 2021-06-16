@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.736">
+    <testcase classname="Does the messenger work?" name="does a receiver receive a message sent" time="0.16">
+        <system-out><![CDATA[Given Bob, age 35 with the email bob@email.com is on the messenger..........passed
+And Sarah, age 37 with the email sarah@email.com is on the messenger........passed
+When "bob@email.com" sends the message "Hello sarah, how are you" to "sarah@email.com".passed
+Then "Sarah" receives the message "Hello sarah, how are you" from "Bob".....passed
+]]></system-out>
+    </testcase>
+</testsuite>

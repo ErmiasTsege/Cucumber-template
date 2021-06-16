@@ -1,0 +1,127 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-16T02:01:02.345Z",
+        "line": 6,
+        "name": "does a receiver receive a message sent",
+        "description": "",
+        "id": "does-the-messenger-work?;does-a-receiver-receive-a-message-sent",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4996300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Bob, age 35 with the email bob@email.com is on the messenger",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bob",
+                  "offset": 0
+                },
+                {
+                  "val": "35",
+                  "offset": 9
+                },
+                {
+                  "val": "bob@email.com",
+                  "offset": 27
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.DoesTheMessengerWork.isOnTheMessenger(java.lang.String,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Sarah, age 37 with the email sarah@email.com is on the messenger",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sarah",
+                  "offset": 0
+                },
+                {
+                  "val": "37",
+                  "offset": 11
+                },
+                {
+                  "val": "sarah@email.com",
+                  "offset": 29
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.DoesTheMessengerWork.isOnTheMessenger(java.lang.String,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3001200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"bob@email.com\" sends the message \"Hello sarah, how are you\" to \"sarah@email.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bob@email.com\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Hello sarah, how are you\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"sarah@email.com\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.DoesTheMessengerWork.sendsTheMessage(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2997600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"Sarah\" receives the message \"Hello sarah, how are you\" from \"Bob\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sarah\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Hello sarah, how are you\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Bob\"",
+                  "offset": 61
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.DoesTheMessengerWork.receivesTheMessageFrom(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Does the messenger work?",
+    "description": "  Testing whether the messenger works or not.",
+    "id": "does-the-messenger-work?",
+    "keyword": "Feature",
+    "uri": "classpath:features/does_the_messenger_work.feature",
+    "tags": []
+  }
+]
